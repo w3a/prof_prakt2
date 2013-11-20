@@ -10,7 +10,7 @@ float r,c;
 SetConsoleOutputCP(1251);
 cout<<"Введите a-> ";
 cin>>a;
-cout<<"Введите c-> ";
+cout<<"Введите хуй-> ";
 cin>>c;
 cout<<"Введите d-> ";
 cin>>d;
