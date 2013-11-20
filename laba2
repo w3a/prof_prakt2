@@ -12,8 +12,7 @@ cout<<"Введите a-> ";
 cin>>a;
 cout<<"Введите c-> ";
 cin>>c;
-cout<<"Введите d-> ";
-cin>>d;
+c
 if ((d+a-1)!=0)
 {r=(sqrt(25/c)-d+2)/(d+a-1);
 	cout<<"Результат "<<r<<endl;
