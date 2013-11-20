@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	int a,d;
+int	int a,d;
 float r,c;
 SetConsoleOutputCP(1251);
 cout<<"Введите a-> ";
