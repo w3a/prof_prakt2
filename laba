@@ -22,8 +22,8 @@ namespace WindowsFormsApplication1
             
         }
 
-        int sec = 0;
-        Form2 f2 = new Form2();//создание нового объекта
+        float sec = 10;
+        Form2 f5 = new Form2();//создание нового объекта
 
         private void timer1_Tick_1(object sender, EventArgs e)
         {
