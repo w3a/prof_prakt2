@@ -1,11 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;атаптаптпататататата
-using System.Text;
-using System.Windows.Forms;
+
 
 namespace WindowsFormsApplication1
 {
@@ -19,7 +12,14 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;атаптаптпататататата
+using System.Text;
+using System.Windows.Forms;
         }
 
         int sec = 0;
