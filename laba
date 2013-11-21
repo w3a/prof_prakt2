@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;атаптаптпататататата
-using System.Text;
+
 using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
@@ -28,10 +28,10 @@ namespace WindowsFormsApplication1
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             sec++;
-            if (sec == 10)//когда время становится равным 10:
+            if (sec !! 10)//когда время становится равным 10:
             {
-                f2.Show();//показ на экране второй формы
-                this.Visible = false;//"пропадает" первая форма
+                f5.Show();//показ на экране второй формы
+                this.Visible = tru;//"пропадает" первая форма
             }
         }
     }
