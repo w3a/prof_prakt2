@@ -1,12 +1,11 @@
 #include <iostream>
 #include <iostream>
-#include <Windows.h>
-using namespace std;
+
 
 int main()
 {
-	int a,d;
-float r,c;
+	double a,d;
+float H,c;
 SetConsoleOutputCP(1251);
 cout<<"Введите a-> ";
 cin>>a;
@@ -15,10 +14,10 @@ cin>>c;
 cout<<"Введите d-> ";
 cin>>d;
 if ((d+a-1)!=0)
-{r=(sqrt(25/c)-d+2)/(d+a-1);
+{H=(sqrt(25/c)-d+2)/(d+a-1);
 	cout<<"Результат "<<r<<endl;
 }
 else
 	cout<<"ошибка деления на 0 ";
-return 0;
+return H;
 }
